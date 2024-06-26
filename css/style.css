@@ -1,0 +1,140 @@
+body {
+font-family: 'lato', Sans-serif;
+margin: 0;
+ padding: 0;
+ background: #dcdcdc;
+ }
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: 0;
+}
+.nav-item {
+cursor: pointer;
+color: #e64d8d;
+font-size:30px;
+font-weight: 200;
+margin-right: 20px;
+}
+.navbar-dark .navbar-toggler {
+    color: rgb(29 114 109);
+    border-color: rgb(29 114 109);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+   color: #1d726d;;
+   text-decoration: none;
+} 
+.navbar-dark .navbar-nav .nav-link {
+    border:none;
+    color: #697977;
+    text-decoration: none;
+    font-size: 22px;
+}
+  body h1 {
+    color: #e74d8d;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0;
+    }   
+.navbar{
+display:flex;
+ align-items: center;
+justify-content:center;
+border-bottom:none;
+}
+.ml-auto{
+    margin:auto;
+}                           
+.header-img {
+    background:url('../img/head.jpg')no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%;
+    height:300px;
+}                       
+.menuitem {
+    list-style-type: none; 
+ margin: 50px;
+cursor: pointer;
+ color: #1d726d;;
+ font-size:30px;
+font-weight: 400;
+}
+
+.menuitem  a:hover {
+    color: #1d726d;
+    text-decoration: underline;
+}
+/* pag mannhn*/
+.anshita{
+    margin:50px 0;
+}
+.carousel-control-prev ,.carousel-control-next{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 3%;
+    color: #a59595;
+    text-align: center;
+     opacity:none; 
+
+}
+.carousel-control-next-icon {
+    background-image: url(../img/button-next.png);
+    width: 55px;
+    height: 65px;
+}
+.carousel-control-prev-icon {
+    background-image: url(../img/button-previous.png);
+    width: 55px;
+    height: 65px;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    /* color: #fff; */
+    /* text-decoration: none; */
+    /* outline: 0; */
+    /* opacity: .9; */
+}
+/* -------------- */
+.content-footer{
+    background:#000; 
+    color: #ffffff; 
+    margin-top:50px;
+    width:100%;
+    text-align:center;
+    padding:30px;
+}
+.content-footer h4{
+    text-align:left;  
+padding-left:100px;
+font-size:14;
+}
+
+.contacts a{
+    font-size: 25px;
+    color: #ffffff; 
+   margin-right:30px;
+ 
+	}
+.Copyright{
+    margin:20px;
+    font-size:12;
+}
+
+
+
+
+
+
